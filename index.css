@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+/* font-family: 'Big Shoulders Text', cursive; */
+#burger{
+    position: absolute;
+    background-color: transparent;
+    padding: 30px;
+    font-size: 70px;
+    color: #9e8600;
+    
+}
+
+.nav-flex-row {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    
+}
+#mySidebar{
+    background-image: url(img/fundo.jpg);
+    height: 100%;
+    width: 30%;
+}   
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFD700;
+    font-size: 1.5em;
+    
+    font-weight: 300;
+}
+
+.section-intro {
+    height: 820px;
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#a_profissional{
+    height: 820px;
+    height: 100px;
+    background: linear-gradient(90deg, rgba(6,0,153,1) 0%, rgba(14,4,89,1) 100%, rgba(0,212,255,1) 100%);
+}
+.column{
+    padding-left: 10px;
+}
+.section-intro h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.section-intro header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-to-book-wrapper {
+    flex: 1;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    background-image:url(img/fundoSite.jpg);
+    background-attachment: fixed;  
+      
+}
+.coisas{
+    display: flex;
+    align-items: center;
+    background-image:url(img/fundoSite.jpg);
+    background-attachment: fixed; 
+}
+.link-to-book {
+    color: #ffffff;
+    display: block;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+}
+
+a.link-to-book:hover {
+    background-color: #ffffff;
+    color: #95999e;
+    text-decoration: none;
+}
+
+.about-section p,
+.about-section h3 {
+    text-align: center;
+    width: 98%;
+    margin: auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.0em;
+    
+}
+
+.carousel-inner {
+    height: 700px;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 30px 20px;
+    color: #FFF;
+}
+
+.btn a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+
+
+.opening-time,
+.contact-adress {
+    flex: 1;
+    margin: 20px 20px;
+    font-size: 1.2em;
+    
+}
+.contact-adress{
+    text-align: center;
+}
+
+
+.form-group p {
+    font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-adress p span {
+    display: block;
+}
+#producao{
+    
+    text-align: center;
+    text-decoration: none;
+    color: #747474;
+}
+#producao a{
+    font-family: 'Inspiration', cursive;
+    font-size: 15pt;
+    text-align: center;
+    text-decoration: none;
+    color: #363636;
+}
+#producao a:hover{
+    text-align: center;
+    text-decoration: none;
+    
+    color: #971e1e;
+}
+
+
+.albuns{
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+ #portifolio {
+    padding: 10% auto 10% auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+
+}
+.card{
+    justify-content: center;
+    display: inline-flex;
+    position: absolute;
+    align-items: center;
+    padding: 2%;
+    margin:5%;
+}
+
+.container {
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    }
+
+.flip-card {
+    
+    position: relative;
+    align-items: center;
+    display: inline-flex;
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    perspective: 1000px;
+    padding: 20px;
+  }
+  
+  .flip-card-inner {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  }
+  .card-text{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size:20pt ;
+  }
+  .album{
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    background-color: #f3f3f3c0;
+    width: 100%;
+}
+
+
+
+@media (min-width:577px) and (max-width: 950px) {
+    body{
+        width: 100%;
+    }
+    header #logo{
+        height: 25%;
+    }
+    #burger{
+        position: absolute;
+        background-color: transparent;
+        padding: 30px;
+        font-size: 50px;
+        color: #9e8600;
+        transition: 0.8s;
+        
+    }
+    
+    .nav-flex-row li a {
+        font-size: 1.0em;
+    }
+    .section-intro {
+        height:100%;
+       background-image:url(img/fundo.jpg);
+      
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 20px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container{
+        position: relative;
+       flex-direction: column;
+       height: 100%;
+        width: 100%;
+        
+    }
+    .albuns{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        background-image: url(img/fundo1.jpg);
+        width: 100%;
+    }   
+    .album{
+        justify-content: center;
+        display: inline-flex;
+        align-items: center;
+        background-color: #f3f3f3c0;
+        width: 100%;
+    }
+    #mySidebar{
+        width: 40%;
+
+    }   
+    button .btn-outline-secondary{
+       
+        padding: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    body { 
+    height: 100%;
+    overflow-x: hidden
+    }
+
+    header #logo{
+        height: 25%;
+    }
+    #burger{
+        position: absolute;
+        background-color: transparent;
+        padding: 30px;
+        font-size: 40px;
+        color: #9e8600;
+        
+    }
+    .nav-flex-row li a {
+        font-size: 1.0em;
+        color: #FFD700;
+        height: 100%;
+    }
+    .section-intro {
+        height:50%;
+       background-image:url(img/fundo.jpg);
+      
+    }
+
+  
+    
+
+    .about-section {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .section-intro h1 {
+        font-size: 2em;
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 15px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .row-flex h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .form-group p {
+        font-size: 15px;
+    }
+
+    .opening-time p span,
+    .contact-adress p span h3 {
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+    }
+    #producao{
+        text-align: center;
+        text-decoration: none;
+        color: #747474;
+    }
+    #producao a{
+        font-family: 'Inspiration', cursive;
+        text-align: center;
+        text-decoration: none;
+        color: #363636;
+    }
+    #producao a:hover{
+        text-align: center;
+        text-decoration: none;
+        color: #971e1e;
+    }
+    .container{
+        position: relative;
+       flex-direction: column;
+       height: 100%;
+        width: 100%;
+        
+    }
+     
+      .albuns{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        background-image: url(img/fundo1.jpg);
+        width: 100%;
+    }
+    .album{
+        justify-content: center;
+        display: inline-flex;
+        align-items: center;
+        background-color: #f3f3f3c0;
+        width: 100%;
+    }
+    #mySidebar{
+        width: 30%;
+    }   
+    .about-section .btn-outline-secondary{
+       margin: 0px auto;
+       padding: 5px 50px;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+    }
+    
+}
