@@ -2,15 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
-
-/* font-family: 'Big Shoulders Text', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+body{
+    background-image: url(img/fundoSite.jpg);
+}
 #burger{
     position: absolute;
     background-color: transparent;
     padding: 30px;
     font-size: 70px;
     color: #9e8600;
-    
+    transition: width 2s, height 4s;
 }
 
 .nav-flex-row {
@@ -25,10 +27,16 @@
     
 }
 #mySidebar{
+    
     background-image: url(img/fundo.jpg);
     height: 100%;
-    width: 30%;
-}   
+    width: 20%;
+    border-end-end-radius:1000px;
+    border-start-end-radius:100px;
+
+}  
+
+
 
 .nav-flex-row li {
     text-decoration: none;
@@ -52,6 +60,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #a_profissional{
     height: 820px;
@@ -63,15 +78,15 @@
 }
 .section-intro h1 {
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     font-size: 4em;
     font-weight: 700;
-}
+    font-family: 'Sacramento', cursive;}
 
 .section-intro header {
     display: flex;
     flex: 4;
-    flex-direction: row;
+    flex-direction: flex;
     justify-content: center;
     align-items: center;
 }
@@ -168,14 +183,14 @@ a.link-to-book:hover {
     
     text-align: center;
     text-decoration: none;
-    color: #747474;
+    color: #fff;
 }
 #producao a{
     font-family: 'Inspiration', cursive;
     font-size: 15pt;
     text-align: center;
     text-decoration: none;
-    color: #363636;
+    color: #fff;
 }
 #producao a:hover{
     text-align: center;
@@ -261,6 +276,7 @@ a.link-to-book:hover {
     }
     header #logo{
         height: 25%;
+        
     }
     #burger{
         position: absolute;
@@ -268,7 +284,7 @@ a.link-to-book:hover {
         padding: 30px;
         font-size: 50px;
         color: #9e8600;
-        transition: 0.8s;
+        transition: width 2s, height 4s;
         
     }
     
@@ -317,7 +333,7 @@ a.link-to-book:hover {
         width: 100%;
     }
     #mySidebar{
-        width: 40%;
+        width: 20%;
 
     }   
     button .btn-outline-secondary{
@@ -352,6 +368,8 @@ a.link-to-book:hover {
     .section-intro {
         height:50%;
        background-image:url(img/fundo.jpg);
+      border-end-end-radius: 100px;
+      border-end-start-radius: 100px;
       
     }
 
@@ -364,7 +382,7 @@ a.link-to-book:hover {
     }
 
     .section-intro h1 {
-        font-size: 2em;
+        font-size: 5em;
     }
 
     .about-section p,
@@ -400,13 +418,13 @@ a.link-to-book:hover {
     #producao{
         text-align: center;
         text-decoration: none;
-        color: #747474;
+        color: #fff;
     }
     #producao a{
         font-family: 'Inspiration', cursive;
         text-align: center;
         text-decoration: none;
-        color: #363636;
+        color: #fff;
     }
     #producao a:hover{
         text-align: center;
@@ -427,6 +445,8 @@ a.link-to-book:hover {
         flex-direction: column;
         background-image: url(img/fundo1.jpg);
         width: 100%;
+        border-radius: 70px;
+        
     }
     .album{
         justify-content: center;
